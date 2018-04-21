@@ -20,10 +20,17 @@ for jogada in jogadas:
     jogadaXerxes = int(jogada[1])
     if jogadaDario == jogadaXerxes:
         continue
-    elif opcoes.index(jogadaDario) < opcoes.index(jogadaXerxes):
-        dario += 1
+    elif jogadaDario > 2:
+        opcoes = opcoes[::-1]
+        if opcoes.index(jogadaDario) < opcoes.index(jogadaXerxes):
+            dario += 1
+        else:
+            xerxes += 1
     else:
-        xerxes += 1
+        if opcoes.index(jogadaDario) < opcoes.index(jogadaXerxes):
+            dario += 1
+        else:
+            xerxes += 1
 
 if dario > xerxes:
     print("dario")
