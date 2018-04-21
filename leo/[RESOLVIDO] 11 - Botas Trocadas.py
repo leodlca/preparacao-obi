@@ -1,7 +1,5 @@
 # 37min 26s
 
-import math
-
 number_of_inputs = int(input(""))
 
 formatted_input = []
@@ -14,10 +12,8 @@ for i in (range(0, number_of_inputs)):
 
 for i in formatted_input:
     same_size_arr = list(filter(lambda x: x['size'] == i['size'], formatted_input))
-    left_arr = list(filter(lambda x: x['side'] == 'E', same_size_arr))
-    right_arr = list(filter(lambda x: x['side'] == 'D', same_size_arr))
-    left_len = len(left_arr)
-    right_len = len(right_arr)
+    left_len = len(list(filter(lambda x: x['side'] == 'E', same_size_arr)))
+    right_len = len(list(filter(lambda x: x['side'] == 'D', same_size_arr)))
 
     smaller_len = left_len if left_len < right_len else right_len
     count += smaller_len
