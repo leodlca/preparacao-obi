@@ -13,5 +13,4 @@ elif dPos < aPos:
     for i in range(0, dPos):
         pressCont += 1
 
-
 print(pressCont)
