@@ -1,0 +1,15 @@
+cartas = [int(x) for x in input("").split(" ")]
+original_cartas = [x for x in cartas]
+
+def output():
+    cartas.sort()
+    if cartas == original_cartas:
+        return print("C")
+    
+    cartas.sort(reverse=True)
+    if cartas == original_cartas:
+        return print("D")
+
+    return print("N")
+
+output()
