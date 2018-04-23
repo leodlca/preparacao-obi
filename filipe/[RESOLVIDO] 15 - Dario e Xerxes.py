@@ -18,7 +18,7 @@ while limite >= count:
 for jogada in jogadas:
     jogadaDario = int(jogada[0])
     jogadaXerxes = int(jogada[1])
-    if jogadaDario == jogadaXerxes:
+    if jogadaDario == jogadaXerxes: # condição desnecessária
         continue
     elif jogadaDario > 2:
         opcoes = opcoes[::-1]
