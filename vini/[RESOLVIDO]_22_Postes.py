@@ -1,10 +1,11 @@
+import random
+
 nPostes = input("")
 tamPostes = input("").split(" ")
 
 tamPostesInt = []
 subPostes = 0
 fixPostes = 0
-
 
 for i in tamPostes:
     tamPostesInt.append(int(i))
