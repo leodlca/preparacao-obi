@@ -1,3 +1,5 @@
+# 13min 42s
+
 cartas = [int(x) for x in input("").split(" ")]
 original_cartas = [x for x in cartas]
 
