@@ -1,4 +1,5 @@
 # 7min 41s
+# Complexidade linear O(n)
 
 n_of_inputs = int(input(""))
 

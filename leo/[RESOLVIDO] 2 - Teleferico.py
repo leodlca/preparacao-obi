@@ -1,4 +1,5 @@
-#1min 49s
+# 1min e 49s
+# Complexidade linear O(n) (podia ser reduzido a O(1) mas é desnecessário)
 
 limit = int(input(""))
 n_of_students = int(input(""))

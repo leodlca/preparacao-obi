@@ -1,4 +1,5 @@
 # 4min 50s
+# Complexidade constante O(1) 
 
 user_input = []
 

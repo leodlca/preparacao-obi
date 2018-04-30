@@ -1,4 +1,5 @@
 # 32min 23s
+# Complexidade linear + quadrático próxima de O(n) + O(n^2), ainda não consegui reduzir o algorítmo quadrático, por isso o erro de timeout pra casos grandes.
 
 # Passa em 40% dos casos, em que N e M <= 100, no resto, em que N e M <= 1000, dá erro de timeout.
 

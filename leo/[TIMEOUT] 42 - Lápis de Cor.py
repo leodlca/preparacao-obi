@@ -1,4 +1,5 @@
 # +- 1h30min, 60/100 pontos, TIMEOUT (mais de 1000ms) em 12 de 40 casos.
+# Complexidade exponencial de O(n^4) no pior caso, por isso nos testes grandes, recebo erro de timeout.
 
 # Uma otimização geral foi tornar a lista "square" e o n_of_sides locais em todas as funções em que 
 # ela é acessada, pq é dito na documentação do python que variáveis locais são sempre

@@ -1,4 +1,5 @@
 # 37min 26s
+# Complexidade exponencial O(n^(4*complexidade do filter, que eu não sei qual é)). Podia ser reduzido mas o limite de input é baixo.
 
 number_of_inputs = int(input(""))
 

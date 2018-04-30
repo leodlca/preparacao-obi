@@ -1,4 +1,5 @@
 # 3min 02s
+# Complexidade linear O(n)
 
 number = int(input(''))
 divisor = 1.0

@@ -1,3 +1,6 @@
+# < 3 min
+# Complexidade linear O(2n), poderia ser reduzido pra O(n) mas o problema é muito simples.
+
 n_of_inputs = int(input(""))
 
 postes = [int(x) for x in input("").split(" ")]
