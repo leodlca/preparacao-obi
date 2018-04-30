@@ -15,13 +15,13 @@ my_calculation = {}
 
 for i in range(0, possibilities - 1):
     input_combinations.append([int(x) for x in input().split(" ")])
-    if i < n_of_cards: my_calculation[str(i + 1)] = []
+
+for i in range(1, n_of_cards + 1):
+    my_calculation[str(i)] = []
 
 for out_idx in range(0, len(input_combinations)):
     for in_idx in range(0, len(input_combinations[out_idx])):
         my_calculation[str(in_idx + 1)].append(input_combinations[out_idx][in_idx])
-
-answer = []
 
 def print_item_that_occurs_less(arr):
     item_that_occurs_less = 0
@@ -36,3 +36,4 @@ def print_item_that_occurs_less(arr):
 for n_card in range(1, n_of_cards + 1):
     print_item_that_occurs_less(my_calculation[str(n_card)])
 
+print()
